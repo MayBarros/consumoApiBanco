@@ -1,7 +1,8 @@
-using Consumo_Api.Interfaces;
-using Consumo_Api.Mapping;
-using Consumo_Api.Rest;
-using Consumo_Api.Services;
+using ConsumoApi.Interfaces;
+using ConsumoApi.Rest;
+using ConsumoApi.Services;
+using ConsumoApi.Mapping;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

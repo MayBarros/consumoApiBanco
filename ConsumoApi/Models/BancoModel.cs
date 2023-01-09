@@ -1,10 +1,10 @@
 using System.Text.Json.Serialization;
 
-namespace artigotech_integra_brasilapi.Models
+namespace ConsumoApi.Models
 {
     public class BancoModel
     {
-        [JsonPropertyName("ispb")]
+         [JsonPropertyName("ispb")]
         public string? Ispb { get; set; }
 
         [JsonPropertyName("name")]

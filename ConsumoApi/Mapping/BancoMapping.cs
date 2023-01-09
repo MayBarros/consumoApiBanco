@@ -1,11 +1,13 @@
-using artigotech_integra_brasilapi.Dtos;
-using artigotech_integra_brasilapi.Models;
+using ConsumoApi.Dtos;
+using ConsumoApi.Models;
 using AutoMapper;
 
-namespace artigotech_integra_brasilapi.Mapping
+
+namespace ConsumoApi.Mapping
 {
     public class BancoMapping : Profile
     {
+        
         public BancoMapping()
         {
             CreateMap(typeof(ResponseGenerico<>), typeof(ResponseGenerico<>));

@@ -1,8 +1,10 @@
-using artigotech_integra_brasilapi.Dtos;
-using artigotech_integra_brasilapi.Interfaces;
+using ConsumoApi.Dtos;
+using ConsumoApi.Interfaces;
 using AutoMapper;
 
-namespace artigotech_integra_brasilapi.Services
+
+
+namespace ConsumoApi.Services
 {
     public class BancoService : IBancoService
     {
@@ -25,6 +27,6 @@ namespace artigotech_integra_brasilapi.Services
         {
             var banco = await _brasilApi.BuscarBanco(codigoBanco);
             return _mapper.Map<ResponseGenerico<BancoResponse>>(banco);
-        }
+        } 
     }
 }

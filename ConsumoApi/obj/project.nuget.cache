@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sC8GHj71qdhcMNDJ7hDWZ1IofEXmpLwcuVD6XJLgn6UjSk9xsvX1bpTNFNth7IE2ILC/7V9UsUX6AF/aAGTVAg==",
+  "dgSpecHash": "gAd9TauVl2i8UXcWGuDvUforU3TDVtZ6ihzmvaIdXtEcbg6x3qng1C66vkiaZ8p6u0Pzyx/A4O2JZzbzBOyK9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\IntegraçãoBrasilApi.csproj",
+  "projectFilePath": "C:\\Users\\M.Barros\\ConsumoApi\\ConsumoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M.Barros\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\M.Barros\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

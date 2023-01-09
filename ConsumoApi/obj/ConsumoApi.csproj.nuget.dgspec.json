@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\IntegraçãoBrasilApi.csproj": {}
+    "C:\\Users\\M.Barros\\ConsumoApi\\ConsumoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\IntegraçãoBrasilApi.csproj": {
+    "C:\\Users\\M.Barros\\ConsumoApi\\ConsumoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\IntegraçãoBrasilApi.csproj",
-        "projectName": "IntegraçãoBrasilApi",
-        "projectPath": "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\IntegraçãoBrasilApi.csproj",
+        "projectUniqueName": "C:\\Users\\M.Barros\\ConsumoApi\\ConsumoApi.csproj",
+        "projectName": "ConsumoApi",
+        "projectPath": "C:\\Users\\M.Barros\\ConsumoApi\\ConsumoApi.csproj",
         "packagesPath": "C:\\Users\\M.Barros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M.Barros\\IntegraçãoBrasilApi\\obj\\",
+        "outputPath": "C:\\Users\\M.Barros\\ConsumoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,12 +1,11 @@
-using artigotech_integra_brasilapi.Dtos;
-using artigotech_integra_brasilapi.Models;
+using ConsumoApi.Dtos;
+using ConsumoApi.Models;
 
-namespace artigotech_integra_brasilapi.Interfaces
+namespace ConsumoApi.Interfaces
 {
     public interface IBrasilApi
     {
-        
         Task<ResponseGenerico<List<BancoModel>>> BuscarTodosBancos();
-        Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco);
+        Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco); 
     }
 }

@@ -1,21 +1,24 @@
 using System.Text.Json;
-using artigotech_integra_brasilapi.Dtos;
-using artigotech_integra_brasilapi.Models;
-using artigotech_integra_brasilapi.Interfaces;
+using ConsumoApi.Dtos;
+using ConsumoApi.Models;
+using ConsumoApi.Interfaces;
 using System.Dynamic;
 
-namespace artigotech_integra_brasilapi.Rest
+
+
+
+namespace ConsumoApi.Rest
 {
     public class BrasilApiRest : IBrasilApi
     {
-      
-
+     
         public async Task<ResponseGenerico<List<BancoModel>>> BuscarTodosBancos()
         {
             var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/banks/v1");
             
             var response = new ResponseGenerico<List<BancoModel>>();
-            using (var client = new HttpClient()) {
+            using (var client = new HttpClient()) 
+            {
                 var responseBrasilApi = await client.SendAsync(request);
                 var contentResp = await responseBrasilApi.Content.ReadAsStringAsync();
                 var objResponse = JsonSerializer.Deserialize<List<BancoModel>>(contentResp); 
